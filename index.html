@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India's No.1 - Brand Company to make By Toys</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="page1">
+            <nav>
+                <div class="logo">
+                    <a href="#"> <img src="Images/logo1.jpg" alt="indian-toy"></a>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Servicse</a></li>
+                    <li><a href="#">Toys Maker</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <div class="login">
+                    <a href="#">Login</a>
+                </div>
+            </nav>
+
+            <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="Images/car1.jpg" alt="Photo1">
+                            <div class="content">
+                                <h1>Best Brand No.1 Toys In Cars</h1>
+                                <a href="#">BUY CAR</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="Images/airplane.jpg" alt="Photo1">
+                            <div class="content">
+                                <h1>Classes Royal Airplane</h1>
+                                <a href="#">BUY Airplane</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="Images/animal_toy.jpg" alt="Photo1">
+                            <div class="content">
+                                <h1>Forest Toys In Animal Toy</h1>
+                                <a href="#">BUY Animal</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="Images/train.jpg" alt="Photo1">
+                            <div class="content">
+                                <h1>India's Toys In No.1 Train</h1>
+                                <a href="#">BUY TRAIN</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
